@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/PR0FESS0R-99/DonLee-Robot-V2/blob/main/DONLEE-ROBOT-V2/DonLee_Robot.jpg" alt="Eva Maria Logo">
+<img src="https://telegra.ph/file/93abacec2d5bcde68b1c3.jpg" alt="Eva Maria Logo">
 </p>
 
 <p align="center">

@@ -14,7 +14,7 @@ from database import Database
 db = Database()
 
 @Client.on_message(filters.command(["addchannel"]) & filters.group, group=1)
-async def connect(bot: DonLee_Robot, update):
+async def connect(bot: KR_AutoFilter_RoBoT, update):
     """
     A Funtion To Handle Incoming /addchannel Command To Connect A Chat With Group
     """
@@ -357,4 +357,4 @@ async def new_files(bot: DonLee_Robot, update):
         await db.add_filters(data)
     return
 
-runing = """Team mo tech"""
+runing = """Kiccha Request"""

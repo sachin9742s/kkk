@@ -14,7 +14,7 @@ from database import Database
 db = Database()
 
 @Client.on_message(filters.command(["addchannel"]) & filters.group, group=1)
-async def connect(bot: KR_AutoFilter_RoBoT, update):
+async def connect(bot: donlee_robot, update):
     """
     A Funtion To Handle Incoming /addchannel Command To Connect A Chat With Group
     """

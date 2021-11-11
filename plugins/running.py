@@ -43,7 +43,7 @@ async def addfilter(client, message):
     if not ((st.status == "administrator") or (st.status == "creator") or (str(userid) in Config.AUTH_USERS)):
         return
     if len(args) < 2:
-        await message.reply_text("https://youtu.be/neJ4jHC9Hng", quote=True)
+        await message.reply_text("https://t.me/KicchaRequest", quote=True)
         return    
     extracted = split_quotes(args[1])
     text = extracted[0].lower()   

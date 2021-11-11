@@ -1,5 +1,5 @@
 {
-    "name": "DonLee-Robot-V2",
+    "name": "KR_AutoFilter_RoBoT",
     "description": "A AutoFilter & Manual Filers Donlee Robot",
     "logo": "https://telegra.ph/file/7213699d811662dd57e36.jpg",
     "keywords": [
@@ -7,9 +7,9 @@
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
-    "repository": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
-    "success_url": "https://github.com/PR0FESS0R-99/DonLee-Robot-V2",
+    "website": "https://github.com/sachin9742s/DonLee-Robot-V2",
+    "repository": "https://github.com/sachin9742s/DonLee-Robot-V2",
+    "success_url": "https://github.com/sachin9742s/DonLee-Robot-V2",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org or @MT_MytelegramOrg_Bot",

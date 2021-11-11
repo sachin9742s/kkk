@@ -24,7 +24,7 @@ from translation import Translation
 db = Database()
 broadcast_ids = {}
 HAAAAAAAAA = f"t.me/{GROUP_LINK}"
-# # # @DonLee_Robot # # #
+# # # @KR_AutoFilter_RoBoT # # #
 
 update_channel = FORCE_CHANNEL
 @DonLee_Robot.on_message(filters.command(["start"]) & filters.private, group=1)
@@ -80,8 +80,6 @@ async def start(bot, message):
         caption=Translation.START_TEXT.format(
                 message.from_user.mention, DEV_USERNAME),
         reply_markup=InlineKeyboardMarkup([[
-              InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/donlee_robot?startgroup=true')
-              ],[
               InlineKeyboardButton(GROUP, url=HAAAAAAAAA),
               InlineKeyboardButton(CHANNEL, url=CHANNEL_LINK)
               ],[
@@ -142,7 +140,7 @@ async def about(bot, message):
                              ),
                          InlineKeyboardButton
                              (
-                                 "Dev 🤠", callback_data="devmuhammed"
+                                 "Dev 🤠", callback_data="Sachin S"
                              )
                     ],
                     [
@@ -171,23 +169,23 @@ async def sub(bot, message):
                     [
                          InlineKeyboardButton
                              (                                 
-                                 "📣Group", url="t.me/mo_tech_group"
+                                 "📣Group", url="t.me/KicchaRequest"
                              ),
                          InlineKeyboardButton
                              (
-                                 "📢Channel", url="t.me/mo_tech_yt"
+                                 "📢Channel", url="t.me/gd_film"
                              )
                     ],
                     [
                          InlineKeyboardButton
                              (
-                                 "😟 Build a New Bot 😟", url="https://youtu.be/NrbMc93aCzA"
+                                 "CME Movies Channel", url="https://t.me/CME_Movie"
                              )
                     ],
                     [
                          InlineKeyboardButton
                              (
-                                 "💥Subscribe youtube Channel💥", url="https://www.youtube.com/c/MoTech_YT"
+                                 "💥 Tv Series Channel💥", url="https://t.me/TV_VIRISION"
                              )
                     ],
                     [
